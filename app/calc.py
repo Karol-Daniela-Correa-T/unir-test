@@ -59,7 +59,7 @@ class Calculator:
         self.check_type(y)
 
 
-if __name__ == "__main__":  
+if __name__ == "__main__":  # pragma: no cover
     calc = Calculator()
     result = calc.add(2, 2)
     print(result)
